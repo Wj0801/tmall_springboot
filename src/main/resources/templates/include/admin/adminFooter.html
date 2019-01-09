@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <style>
+        #foot {
+            font-size: 12px!important;
+            margin: 30px auto;
+            width: 60%;
+            padding-top: 20px;
+            border-top: 1px rgb(231, 231, 231) solid;
+            color: rgb(147, 147, 147);
+            max-height: 70px;
+        }
+
+        #leftContent {
+            float: left;
+            width: 35%;
+        }
+
+        #leftContent span {
+            display: block;
+            padding-bottom: 10px;
+        }
+
+        #rightContent {
+            float: right;
+        }
+
+        #footIcon {
+            text-align: right;
+            padding-bottom: 20px;
+            width: 160px;
+            height: 60px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div th:fragment="html">
+
+
+    <nav id="foot">
+        <div id="leftContent">
+            <span>Email:1964007336@qq.com</span>
+            <span>github:<a class="github" href="https://github.com/Wj0801">Wj0801</a></span>
+            <span>Copyright © 2018.Company name.WangJun</span>
+            <span >皖ICP备18026057号</span>
+        </div>
+        <div id="rightContent">
+            <div id="footIcon"><img style="width: 100px;height: 50px;" src="img/site/footer/wangjun.png"/></div>
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34012302000387"
+               style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="img/site/footer/police.png" style="float:left;"/>
+                <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">皖公网安备 34012302000387号</p></a></div>
+    </nav>
+
+
+</div>
+</body>
+</html>
